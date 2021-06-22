@@ -7,10 +7,10 @@
 }
 
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 1);
 }
 
  
@@ -79,16 +79,16 @@ h1,h2,h3,h4,h5,h6,p{
   display: none;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  padding: 25px 10px;
-  color: #343a40;
-  font-weight: 500;
-  outline: none;
-}
+    .navbar-light .navbar-nav .nav-link {
+        padding: 25px 10px;
+        color: #CCCECF;
+        font-weight: 500;
+        outline: none;
+    }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: #ffffff;
 }
 
 @media (max-width: 991.98px) {
@@ -160,85 +160,6 @@ h1,h2,h3,h4,h5,h6,p{
 .ex-me{
   margin-top: 35px;
 }
-
-
-/* =================== Service Section ==================*/
-.service-h4{
-  padding-bottom: 30px;
-}
-
-.service-icon {
-  width: 60px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 60px;
-}
-
-.service-box{
-  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);  
-  margin-left: 20px;
-  padding: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.service-box:hover{
-  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
- 
-}
-/* =================== Portfolio section ==================*/
-
-
-.portfolio-item .portfolio-btn {
-  position: absolute;
-  width: 0;
-  height: 0;
-  top: 50%;
-  left: 50%;
-  border-radius: 4px;
-  opacity: 0;
-  transition: .5s;
-}
-
-.portfolio-item:hover .portfolio-btn {
-  opacity: 1;
-  width: calc(100% - 60px);
-  height: calc(100% - 60px);
-  top: 30px;
-  left: 30px;
-}
-
-/* ====================== Testimonial ================*/
-.testimonial-carousel .text-center{
-  background-color: #eaecf0d0;
-  border-radius: 20px;
-  margin: 20px;
-
-}
-.testimonial-carousel .text-center h4{
-
-}
-
-.testimonial-carousel .owl-dots {
-  margin-top: 25px;
-  text-align: center;
-}
-
-.testimonial-carousel .owl-dot {
-  display: inline-block;
-  margin: 0 5px;
-  width: 12px;
-  height: 12px;
-  border-radius: 10px;
-  background: #dddddd;
-}
-
-.testimonial-carousel .owl-dot.active {
-  background: #0BCEAF;
-}
-
-
 
 /* ========================== Contact Us ========================*/
 
