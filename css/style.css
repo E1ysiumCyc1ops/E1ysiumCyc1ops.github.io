@@ -1,9 +1,8 @@
 
-
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
@@ -74,21 +73,19 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* ================ Navigation Menu ====================*/
 
-
 .navbar-light {
   display: none;
 }
 
-    .navbar-light .navbar-nav .nav-link {
+    .navbar-dark .navbar-nav .nav-link {
         padding: 25px 10px;
-        color: #FF0000;
+        color: #808080;
         font-weight: 500;
         outline: none;
-        background-color: #000000
     }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
   color: #ffffff;
 }
 
@@ -107,7 +104,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .display-1{
-  font-size: 160px;
+  font-size: 150px;
   font-weight: 1000;
   
 }
@@ -122,8 +119,8 @@ h1,h2,h3,h4,h5,h6,p{
   color: #ffffff;
 }
 
-.blue{
-  background-color: #1c5ce6;
+.black{
+  background-color: #000000;
   color: #ffffff;
 }
 .btn{
